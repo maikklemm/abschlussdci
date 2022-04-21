@@ -1,0 +1,225 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url("./Bilder/alpenwand.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h3 {
+  text-align: center;
+  margin: 8px;
+  color: rgba(0, 47, 255, 0.887);
+}
+
+.page-title {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  background-color: rgba(255, 255, 255, 0.677);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-nav li {
+  list-style-type: none;
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+main {
+  margin-top: 150px;
+}
+
+.container-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  color: yellow;
+  font-weight: bolder;
+  font-size: 1.6em;
+}
+
+.container-picture .item {
+  border: 1px solid grey;
+  width: 220px;
+  height: 270px;
+  cursor: pointer;
+  border: 12px solid rgba(128, 128, 128, 0.486);
+  border-radius: 14%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container-picture .item:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container-picture .wandern {
+  background-image: url(./Bilder/rough-horn-gc6326cf4d_1280.jpg);
+}
+
+.container-picture .bergwandern {
+  background-image: url(./Bilder/bergtour-1194233.jpg);
+}
+
+.container-picture .talwandern {
+  background-image: url(./Bilder/Talwandern-4610085.jpg);
+}
+
+.container-picture .huettentouren {
+  background-image: url(./Bilder/berghütte.jpg);
+}
+
+.container-picture .biketouren {
+  background-image: url(./Bilder/biker-3967817.jpg);
+}
+
+.container-picture .wanderfuehrungen {
+  background-image: url(./Bilder/guide-11189584.jpg);
+}
+
+@media screen and (min-width: 600px) {
+  .container-picture {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.kundeninfo {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid black;
+  background-color: rgba(128, 128, 128, 0.729);
+  font-size: 2.5em;
+  color: white;
+  width: 85%;
+  margin: 100px;
+}
+
+.article {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+p {
+  color: white;
+}
+
+article {
+  color: yellow;
+}
+
+.carousel {
+  opacity: 0.98;
+  border: 4px solid rgba(0, 47, 255, 0.468);
+}
+
+footer .mitte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  height: 4em;
+  color: wheat;
+  font-size: 2rem;
+  text-align: center;
+  list-style-type: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
+
+.mitte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  background-color: rgba(245, 222, 179, 0.616);
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2em;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+/*# sourceMappingURL=style.css.map */
