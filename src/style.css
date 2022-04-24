@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   background-image: url("./Bilder/alpenwand.jpg");
@@ -41,6 +45,7 @@ h1, h3 {
   display: flex;
 }
 
+page-nav
 .page-nav li {
   list-style-type: none;
   padding-left: 10px;
