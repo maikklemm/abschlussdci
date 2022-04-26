@@ -20,7 +20,8 @@ body {
 h1, h3 {
     text-align: center;
     margin: 8px;
-    color: rgba(0, 47, 255, 0.887);
+   // color: rgba(0, 47, 255, 0.887);
+    color: red;
 }
 
 .page-title {
@@ -37,7 +38,7 @@ h1, h3 {
 .page-nav ul {
     display: flex;
 
-
+}
 .page-nav li {
     list-style-type: none;
     padding-left: 10px;
@@ -113,6 +114,13 @@ main {
     }
 }
 
+
+
+
+
+
+
+
 .kundeninfo {
     padding: 50px;
     display: flex;
@@ -144,6 +152,7 @@ article {
     border: 4px solid rgba(0, 47, 255, 0.468);
 
 }
+
 
 // Footerbereich
 
@@ -183,7 +192,13 @@ footer .mitte {
 
 
 
+.soundCarusel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 
+}
 
 
 
