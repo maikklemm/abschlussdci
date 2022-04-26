@@ -173,6 +173,17 @@ article {
   border: 4px solid rgba(0, 47, 255, 0.468);
 }
 
+
+.soundCarusel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+
+
 footer .mitte {
   display: -webkit-box;
   display: -ms-flexbox;
